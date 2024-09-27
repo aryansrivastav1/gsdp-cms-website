@@ -3,73 +3,69 @@
 
 
 
-Test
-		
-
-
-		<!-- Main Section -->
-		<section class="main-section fill-neutral-1">
-			<div class="container">
-				<div class="row">
-					<!-- Sidebar -->
-					<div class="sidebar columns large-4 space-100-top-bottom">
-						{% include 'parts/sidebar.liquid' %}
-					</div>
-					<!-- END: Sidebar -->
-					<!-- Main -->
-					<div class="main columns large-7 large-offset-1 space-100-top-bottom">
-						<div class="space-50-bottom">
-							<p>Are you looking for...</p>
-						</div>
-						<div class="container">
-							<div class="columns">
-								<div class="card inline-middle space-100-top-bottom space-50-right">
-									<p>Architecture for<br>House Owners</p>
-								</div>
-								<div class="card inline-middle space-100-top-bottom space-50-left-right">
-									<p>Architecture for<br>Businesses</p>
-								</div>
-								<div class="card inline-middle space-100-top-bottom space-50-left-right">
-									<p>Architecture for<br>Students</p>
-								</div>
-							</div>
-						</div>
-						<div class="everything space-100-top-bottom">
-							{% include 'parts/everything.liquid' %}
-						</div>
-					</div>
-					<!-- END: Main -->
-				</div>
+<!-- Main Section -->
+<section class="main-section fill-neutral-1">
+	<div class="container">
+		<div class="row">
+			<!-- Sidebar -->
+			<div class="sidebar columns large-4 space-250-top-bottom">
+				{% include 'parts/sidebar.liquid' %}
 			</div>
-		</section>
-		<!-- END: Main Section -->
-
-
-
-
-		<!-- Sample Section -->
-		<section id="sample-section" class="sample-section">
-			<div class="container">
-				<div class="row">
-					<div class="columns small-12">
-						<div class="h3">Typography:</div>
-						<div class="h1 strong">Lorem ipsum, dolor sit amet consectetur.</div>
-						<div class="h2 strong">Lorem ipsum dolor sit amet consectetur.</div>
-						<div class="h3 strong">Lorem ipsum dolor sit amet consectetur.</div>
-						<div class="h4 strong">Lorem ipsum dolor sit amet consectetur.</div>
-						<div class="h5 strong">Lorem ipsum dolor sit amet consectetur.</div>
-						<div class="h6">Lorem ipsum dolor sit amet consectetur.</div>
-						<div class="p">Lorem ipsum dolor, sit amet consectetur,.</div>
-						<div class="label">Lorem ipsum dolor sit amet consectetur.</div>
-						<div class="small space-25-bottom">Lorem, ipsum dolor sit amet consectetur.</div>
-						<a class="button fill-blue" href="https://google.com">Search</a>
+			<!-- END: Sidebar -->
+			<!-- Main -->
+			<div class="main columns large-7 large-offset-1 space-250-top-bottom">
+				<div>
+					<div class="h6">Are you looking for...</div>
+				</div>
+				<div class="container">
+					<div class="columns space-50-top space-150-bottom">
+						<div class="card inline-middle space-250-top-bottom fill-neutral-7 radius-50">
+							<div class="h6 strong" style="transform: rotate(270deg);">Architecture for<br>House Owners</div>
+						</div>
+						<div class="card inline-middle space-250-top-bottom large-offset-1 fill-neutral-7 radius-50">
+							<div class="h6 strong" style="transform: rotate(270deg);">Architecture for<br>Businesses</div>
+						</div>
+						<div class="card inline-middle space-250-top-bottom large-offset-1 fill-neutral-7 radius-50">
+							<div class="h6 strong" style="transform: rotate(270deg);">Architecture for<br>Students</div>
+						</div>
 					</div>
 				</div>
+				<div class="everything space-100-bottom">
+					{% render 'parts/everything.liquid' %}
+				</div>
 			</div>
-		</section>
-		<!-- END: Sample Section -->
+			<!-- END: Main -->
+		</div>
+	</div>
+</section>
+<!-- END: Main Section -->
 
 
 
 
-{% include 'parts/footer.liquid' %}
+<!-- Sample Section -->
+{% comment %} <section id="sample-section" class="sample-section">
+	<div class="container">
+		<div class="row">
+			<div class="columns small-12">
+				<div class="h3">Typography:</div>
+				<div class="h1 strong">Lorem ipsum, dolor sit amet consectetur.</div>
+				<div class="h2 strong">Lorem ipsum dolor sit amet consectetur.</div>
+				<div class="h3 strong">Lorem ipsum dolor sit amet consectetur.</div>
+				<div class="h4 strong">Lorem ipsum dolor sit amet consectetur.</div>
+				<div class="h5 strong">Lorem ipsum dolor sit amet consectetur.</div>
+				<div class="h6">Lorem ipsum dolor sit amet consectetur.</div>
+				<div class="p">Lorem ipsum dolor, sit amet consectetur,.</div>
+				<div class="label">Lorem ipsum dolor sit amet consectetur.</div>
+				<div class="small space-25-bottom">Lorem, ipsum dolor sit amet consectetur.</div>
+				<a class="button fill-blue" href="https://google.com">Search</a>
+			</div>
+		</div>
+	</div>
+</section> {% endcomment %}
+<!-- END: Sample Section -->
+
+
+
+
+{% comment %} {% include 'parts/footer.liquid' %} {% endcomment %}
