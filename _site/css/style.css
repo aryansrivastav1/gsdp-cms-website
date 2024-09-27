@@ -1,0 +1,49 @@
+header .first-nav {
+  color: #864af8;
+}
+
+header .mid-nav {
+  color: #ff57c6;
+}
+
+.sidebar-heading {
+  color: #864af8;
+  font-family: Rajdhani;
+  font-size: 54px;
+  line-height: 54px;
+}
+
+.sidebar-para {
+  font-size: 23px;
+}
+
+.form {
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.form-heading {
+  color: #864af8;
+}
+
+form button {
+  background-color: #864af8;
+  color: #fff;
+  outline: 1px solid #332941;
+}
+
+
+
+.everything-card {
+    transform: rotate(270deg);
+}
+
+select {
+  border: 1px solid #000;
+  height: 30px;
+  color: black;
+  line-height: 28px;
+}
+
+.post img {
+  border-radius: 10px 10px 0px 0px;
+}

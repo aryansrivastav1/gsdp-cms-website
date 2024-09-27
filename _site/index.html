@@ -79,6 +79,7 @@
 	<link rel="stylesheet" type="text/css" href="css/3_grid.css">
 	<link rel="stylesheet" type="text/css" href="css/4_helper.css">
 	<link rel="stylesheet" type="text/css" href="css/5_stylescape.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<!-- Modules -->
 	<link rel="stylesheet" type="text/css" href="css/modules/video-embed.css">
@@ -101,6 +102,8 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- Typing JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<!-- Smooth Scroll JS -->
 	<!-- <script src="https://cdn.jsdelivr.net/npm/jump.js/dist/jump.min.js"></script> -->
 </head>
@@ -122,11 +125,11 @@
                 <img class="block" src="/media/logo.jfif" alt="Logo" height="96" width="340px">
             </div>
             <div class="columns large-7 large-offset-1 inline-middle">
-                <a class="strong space-50" href="#everything" style="color: #8849f8;">Everything</a>
-                <a class="strong space-50" href="#services">Services</a>
-                <a class="strong space-50" href="#project">Project</a>
-                <a class="strong space-50" href="#about">About</a>
-                <a class="strong space-50" href="tel:+91-80415-10310" style="color: #000;">+91 8041510310</a>
+                <a class="first-nav strong space-50" href="#everything">Everything</a>
+                <a class="mid-nav strong space-50" href="#services">Services</a>
+                <a class="mid-nav strong space-50" href="#project">Project</a>
+                <a class="mid-nav strong space-50" href="#about">About</a>
+                <a class="strong space-50 text-black" href="tel:+91-80415-10310">+91 8041510310</a>
             </div>
         </div>
     </div>
@@ -136,20 +139,7 @@
 
 
 <!-- Menu Section -->
-<section id="menu-section" class="menu-section position-relative hidden" style="box-shadow: 0 0 0 1px var(--neutral-2), 0 0 5px 1px var(--neutral-3); z-index: 9;">
-	<div class="container">
-		<div class="row space-75-top-bottom">
-			<div class="logo columns small-8 medium-5 large-3 inline-middle" style="font-size: 0;">
-				<a class="inline-block" href="/">
-					<img class="block" src="media/logo-combination-eng.png">
-				</a>
-			</div>
-			<div class="logo columns small-4 medium-7 large-9 text-right inline-middle hide-small">
-				<a href="tel:+919740711696" class="text-blue h2 strong">+91-97407-11696</a>
-			</div>
-		</div>
-	</div>
-</section>
+
 <!-- END: Menu Section -->
 
 
@@ -160,11 +150,11 @@
 		<div class="row">
 			<!-- Sidebar -->
 			<div class="sidebar columns large-4 space-250-top-bottom">
-				<div class="space-100-bottom h3" style="font-family: Rajdhani; font-size: 54px; line-height: 54px;">Architecture that Inspires and Endures</div>
-<div class="space-100-bottom h6">Rooted in Human-Centric Design, our unique approach combines functionality with timeless beauty!</div>
-<div class="form fill-white space-75-left-right space-100-top-bottom radius-50">
+				<div class="sidebar-heading space-100-bottom h3">Architecture that Inspires and Endures</div>
+<div class="sidebar-para space-150-bottom h6">Rooted in Human-Centric Design, our unique approach combines functionality with timeless beauty!</div>
+<div class="form fill-white space-150-left-right space-150-top-bottom radius-50">
 	<form action="" method="post">
-		<div class="h6 strong text-red">Sign-up for a FREE<br>Online Consultation!</div>
+		<div class="form-heading h6 strong text-red">Sign-up for a FREE<br>Online Consultation!</div>
 		<div class="form-fields space-25-top">
 			<label class="block space-25-top" for="fullName">
 				<span class="small strong inline space-min-bottom">Full Name</span>
@@ -175,12 +165,12 @@
 				<input class="input-field block" type="text" name="email">
 			</label>
 			<label class="block space-25-top" for="phone">
-				<span class="small strong inline space-min-bottom">Phone Number <span class="w-400">(Optional : Request a Call-Back)</span></span>
+				<span class="small strong inline space-min-bottom">Phone Number <span class="w-400">(Optional: Request a Call-Back)</span></span>
 				<input class="input-field block" type="text" name="phone">
 			</label>
 			<label class="block space-25-top" for="phone">
 				<span class="small strong inline space-min-bottom invisible">Submit</span>
-				<button class="button block strong fill-red" type="submit">Send</button>
+				<button class="button block strong text-left" type="submit">Send</button>
 			</label>
 		</div>
 	</form>
@@ -192,22 +182,22 @@
 </div>
 <div class="space-100-top">
 	<p class="block strong">Phone</p>
-	<a class="block" href="tel:+91 8041510310" target="_blank">+91 8041510310</a>
-	<a href="tel:+91 9886466930" target="_blank">+91 9886466930</a>
+	<a class="text-underline" href="tel:+91 8041510310" target="_blank">+91 8041510310</a><br>
+	<a class="text-underline" href="tel:+91 9886466930" target="_blank">+91 9886466930</a>
 </div>
 <div class="space-100-top">
 	<p class="block strong">Email</p>
-	<a class="block" href="mailto:design-consult@greyscale.in" target="_blank">design-consult@greyscale.in</a>
-	<a class="block" href="mailto:info@greyscale.in" target="_blank">info@greyscale.in</a>
-	<a href="mailto:withus@greyscale.in" target="_blank">withus@greyscale.in</a>
+	<a class="text-underline" href="mailto:design-consult@greyscale.in" target="_blank">design-consult@greyscale.in</a>
+	<a class="text-underline" href="mailto:info@greyscale.in" target="_blank">info@greyscale.in</a><br>
+	<a class="text-underline" href="mailto:withus@greyscale.in" target="_blank">withus@greyscale.in</a>
 </div>
 <div class="space-100-top">
 	<p class="block strong">Quick Links</p>
-	<a class="block" href="#">Greyscale Stories</a>
-	<a class="block" href="#">About Us</a>
-	<a class="block" href="#">For Home Owners</a>
-	<a class="block" href="#">For Builders</a>
-	<a class="block" href="#">For Students</a>
+	<a class="text-underline" href="#">Greyscale Stories</a><br>
+	<a class="text-underline" href="#">About Us</a><br>
+	<a class="text-underline" href="#">For Home Owners</a><br>
+	<a class="text-underline" href="#">For Builders</a><br>
+	<a class="text-underline" href="#">For Students</a>
 </div>
 			</div>
 			<!-- END: Sidebar -->
@@ -219,27 +209,36 @@
 				<div class="container">
 					<div class="columns space-50-top space-150-bottom">
 						<div class="card inline-middle space-250-top-bottom fill-neutral-7 radius-50">
-							<div class="h6 strong" style="transform: rotate(270deg);">Architecture for<br>House Owners</div>
+							<div class="columns">
+								<div class="everything-card h6 strong inline-bottom">Architecture for<br>House Owners</div>
+								<i class="fa-solid fa-play inline-bottom"></i>
+							</div>
 						</div>
-						<div class="card inline-middle space-250-top-bottom large-offset-1 fill-neutral-7 radius-50">
-							<div class="h6 strong" style="transform: rotate(270deg);">Architecture for<br>Businesses</div>
+						<div class="card inline-middle space-250-top-bottom fill-neutral-7 radius-50">
+							<div class="columns">
+								<div class="everything-card h6 strong inline-bottom">Architecture for<br>Businesses</div>
+								<i class="fa-solid fa-play inline-bottom"></i>
+							</div>
 						</div>
-						<div class="card inline-middle space-250-top-bottom large-offset-1 fill-neutral-7 radius-50">
-							<div class="h6 strong" style="transform: rotate(270deg);">Architecture for<br>Students</div>
+						<div class="card inline-middle space-250-top-bottom fill-neutral-7 radius-50">
+							<div class="columns">
+								<div class="everything-card h6 strong inline-bottom">Architecture for<br>Students</div>
+								<i class="fa-solid fa-play inline-bottom"></i>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="everything space-100-bottom">
 					<div class="columns fill-white radius-50 space-75-top-bottom space-100-left-right">
 	<div class="inline-middle">
-		<div class="h6">Browse By</div>
+		<div class="h6 text-neutral-2">Browse By</div>
 	</div>
 	<div class="inline-middle large-offset-1">
 		<div class="container block">
 			<div class="inline-middle space-50-left">
-				<div class="text-right">PROJECTS</div>
+				<div class="text-right small strong text-neutral-2">PROJECTS</div>
 				<div class="dropdown">
-					<select name="project" style="border: 1px solid #000; height: 30px; color: black;">
+					<select name="project">
 						<option value="Dasta Concerto">Dasta Concerto</option>
 						<option value="ABC">ABC</option>
 						<option value="XYZ">XYZ</option>
@@ -247,9 +246,9 @@
 				</div>
 			</div>
 			<div class="inline-middle space-50-left">
-				<div class="text-right">CATEGORY</div>
+				<div class="text-right small strong text-neutral-2">CATEGORY</div>
 				<div class="dropdown">
-					<select name="project" style="border: 1px solid #000; height: 30px; color: black;">
+					<select name="project">
 						<option value="Dasta Concerto">Residential</option>
 						<option value="ABC">Industrial</option>
 						<option value="XYZ">Apartmental</option>
@@ -257,9 +256,9 @@
 				</div>
 			</div>
 			<div class="inline-middle space-50-left">
-				<div class="text-right">YEAR</div>
+				<div class="text-right small strong text-neutral-2">YEAR</div>
 				<div class="dropdown">
-					<select name="project" style="border: 1px solid #000; height: 30px; color: black;">
+					<select name="project">
 						<option value="Dasta Concerto">2018</option>
 						<option value="ABC">2019</option>
 						<option value="XYZ">2020</option>
@@ -271,9 +270,9 @@
 	</div>
 </div>
 
-<div class="post radius-50 space-150-top">
-	<img style="border-radius: 10px 10px 0px 0px;" src="/media/image.jpg" alt="Building Image" width="" height="">
-	<div class="container fill-white radius-50 space-100-top-bottom space-100-left-right">
+<div class="post radius-50 fill-white">
+	<img src="/media/image.jpg" alt="Building Image" width="" height="">
+	<div class="container radius-50 space-100-top-bottom space-100-left-right">
 		<div>
 			<div class="h6 strong">Designing a clubhouse amidst nature</div>
 		</div>
@@ -285,7 +284,7 @@
 				<div class="small">Article - 12/09/2024 &nbsp; Dosta Concerto &nbsp; Residential</div>
 			</div>
 			<div class="inline-middle large-offset-4">
-				<div class="strong">EXPLORE</div>
+				<div class="strong label">EXPLORE</div>
 			</div>
 		</div>
 	</div>
